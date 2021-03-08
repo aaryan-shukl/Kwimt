@@ -1,0 +1,9 @@
+html,body {
+    background: radial-gradient(#A7DFFF 20%, #005AFF 20%, #1200BA 60%);
+    text-align: center;
+}
+#roomname {
+    width: 75%;
+    height: 10%;
+    margin-left: 12%;
+}

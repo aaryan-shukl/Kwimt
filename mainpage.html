@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kwimt</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel="stylesheet" href="mainpage.css">
+    </head>
+    <body>
+        <script src="mainpage.js"></script>
+        <div class="container">
+            <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+            <h1 id="welcome-heading"></h1>
+            <h4>please join a room of your choice or create your own room</h4>
+            <label>Available Rooms</label>
+            <div id="available-rooms"></div>
+            <br><br>
+            <label>Roomname</label>
+            <input type="text" id="roomname" class="form-control">
+            <br><br>
+            <button type="button" onclick="addroom()" class="btn btn-primary">Create Room</button>
+        </div>
+    </body>
+</html>
