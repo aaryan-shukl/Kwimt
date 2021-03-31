@@ -7,3 +7,9 @@ html,body {
     height: 10%;
     margin-left: 12%;
 }
+.display {
+    background-color: #A7DFFF;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(217, 235, 250);
+}
